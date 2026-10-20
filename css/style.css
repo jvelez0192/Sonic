@@ -48,7 +48,7 @@ caption {
 }
 header {
   text-align: center;
-  background-color: rgb(58, 61, 255);
+  background-color: rgb(47, 115, 242);
   padding: 20px;
 }
 header img {
@@ -83,4 +83,26 @@ h2 {
   font-size: 50px;
   margin: 20px 0;
   color: rgba(0, 0, 0, 0);
+}
+
+footer {
+  background-color: rgb(47, 115, 242);
+  padding: 40px;
+  text-align: center;
+}
+
+footer .content {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(255, 192, 74);
 }
