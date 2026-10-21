@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20&family=Jersey+25&display=swap");
+
+body {
+  background-color: skyblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+ul,
+ol {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+a {
+  color: rgb(255, 74, 74);
+}
+
+a:hover {
+  color: rgb(74, 119, 255);
+}
+
+a:active {
+  color: rgb(164, 74, 255);
+}
+
+a:visited {
+  color: rgb(255, 74, 74);
+}
+
+p,
+caption {
+  font-size: 16px;
+  color: rgb(67, 66, 66);
+  font-style: oblique;
+  margin: 0;
+}
+header {
+  text-align: center;
+  background-color: rgb(47, 115, 242);
+  padding: 20px;
+}
+header img {
+  width: 220px;
+  height: 220px;
+  color: rgb(255, 74, 74);
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color: rgba(0, 0, 0, 100);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding:0 20px;
+}
+
+main img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20px 0;
+  color: rgba(47, 115, 242, 100);
+}
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 40px
+  }
+}
+
+/* footer */
+footer {
+  background-color: rgb(47, 115, 242);
+  padding: 40px;
+  text-align: center;
+}
+
+footer .content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: rgb(255, 192, 74);
+}
+
+@media (max-width: 600px) {
+  footer p{
+    front-size: 16px;
+  }
+}
